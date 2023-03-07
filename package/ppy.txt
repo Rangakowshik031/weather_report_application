@@ -1,0 +1,35 @@
+import datetime
+class citizen:
+    def __init__(self,name,dob):
+        self.name=name
+        self.dob=dob
+    def verify(self):
+        today=datetime.date.today()
+        age=today.year-self.dob.year
+        if today < datetime.date(today.year,self.dob.month,self.dob.day):
+            age-=1
+        if age>=18:
+            print(self.name)
+        else:
+            print("wa")
+
+
+r=citizen("kowshik",datetime.date(2002,12,9))
+r.verify()
+
+
+
+def func(l):
+    for i in l:
+        if(l.count(i)>1):
+            if i not in l2:
+                l2.append(i)
+    return l2
+
+n=int(input(" ENTER THE NUMBER OF ELEMNTS OF THE LIST="))
+l=[]
+l2=[]
+for i in range(1,n+1):
+    m=int(input("enter element{}=".format(i)))
+    l.append(m)
+print(func(l))

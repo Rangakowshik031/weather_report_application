@@ -1,0 +1,6 @@
+a=input("enter string:")
+b=input("enter string:")
+print(a,b,sep='@',end='.com')
+print("\n")
+print('09','12','2002',sep='-')
+print('include','std',sep='<',end='>')

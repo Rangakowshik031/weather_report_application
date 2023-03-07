@@ -1,0 +1,11 @@
+name=input("enter student name:")
+roll_number=input("enter student roll number:")
+branch=input("enter student branch:")
+address=input("enter student address:")
+marks=input("enter student student percentage:")
+print(name)
+print(roll_number)
+print(branch)
+print(address)
+print(marks)
+

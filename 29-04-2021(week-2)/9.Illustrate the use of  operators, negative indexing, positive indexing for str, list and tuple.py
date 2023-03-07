@@ -1,0 +1,30 @@
+s=input("enter any string=")
+print(s)
+print(s[::-1])
+print(s[2:5:2])
+print(s[1]*5)
+print(s*4)
+print(s[-1])
+print(s[:-1])
+print(s[2:8])
+
+a=[10,20,30,400,1]
+print(a[-1])
+print(a[2:-1])
+print(a*3)
+print(a[4])
+print(a[::-1])
+print(a[1:])
+print(sorted(a))
+a.append(258)
+print(a)
+del a[2]
+print(a)
+
+b=(1,2,5,0,3,4)
+print(b[3])
+print(b[2:])
+print(sorted(b))
+print(b)
+print(b[::-1])
+

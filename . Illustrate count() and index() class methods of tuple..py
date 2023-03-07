@@ -1,0 +1,5 @@
+a=(15,30,5,25,95,120,20,30,25,30,5)
+print(a.index(5))
+print(a.index(95))
+print(a.count(30))
+print(a.count(5))

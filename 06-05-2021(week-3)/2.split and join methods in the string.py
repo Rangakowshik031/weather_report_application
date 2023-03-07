@@ -1,0 +1,6 @@
+s=str(input("enter string:"))
+print(s)
+s1=s.split()
+print(s1)
+s2="everyone".join(s1)
+print(s2)

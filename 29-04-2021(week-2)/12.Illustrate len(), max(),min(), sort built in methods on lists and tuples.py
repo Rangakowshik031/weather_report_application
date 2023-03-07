@@ -1,0 +1,10 @@
+a=(4,2,457,58,6933,1,0,25874,7)
+print(max(a))
+print(min(a))
+print(len(a))
+print(sorted(a))
+b=[10,25,35,45,254,5,4,78]
+print(max(b))
+print(min(b))
+print(len(b))
+print(sorted(b))
